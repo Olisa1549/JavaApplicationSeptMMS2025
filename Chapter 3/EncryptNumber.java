@@ -37,3 +37,4 @@ public class EncryptNumber {
         input.close();
     }
 }
+
