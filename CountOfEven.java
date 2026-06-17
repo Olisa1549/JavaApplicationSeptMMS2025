@@ -8,7 +8,6 @@ public class CountOfEven{
 				totalEven++;
 			}
 		}
-		System.out.printf("The count of even numbers is %d",totalEven);
-			
+		System.out.printf("The count of even numbers is %d",totalEven);		
 	}
 }

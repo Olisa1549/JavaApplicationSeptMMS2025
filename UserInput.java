@@ -16,7 +16,7 @@ public class UserInput{
 		System.out.printf("Enter the number of student in your class: ");
 		short numberOfStudent = input.nextShort();
 		
-		System.out.print("Enter the number of student in your class: ");
+		System.out.print("Enter the total number of student in your school: ");
 		int totalNumberOfStudent = input.nextInt();
 		
 		System.out.print("Enter your grade: ");
@@ -33,7 +33,7 @@ public class UserInput{
 		System.out.printf("Hello %s, you are welcome to NIIT%n",name);
 		System.out.printf("You are a %s and you are %d years old%n", gender,age);
 		System.out.printf("There are %d students in your class%n",numberOfStudent);
-		System.out.printf("There total number of students in your school is %,d%n",totalNumberOfStudent);
+		System.out.printf("The total number of students in your school is %,d%n",totalNumberOfStudent);
 		System.out.printf("Your grade is %c%n", grade);
 		System.out.printf("Do you love java %b%n",lovejava);
 	
