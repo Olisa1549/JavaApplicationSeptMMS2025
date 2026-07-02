@@ -4,8 +4,7 @@ public class Days{
 	public static void main(String[] args){
 		Scanner input = new Scanner(System.in);
 		
-		System.out.println("Enter day from 1 - 7:");
-		
+		System.out.println("Enter day from 1 - 7: ");
 		int day = input.nextInt();
 		
 		switch(day){

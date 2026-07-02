@@ -7,12 +7,10 @@ public class EvenChecker{
 		System.out.print("Enter a number: ");
 		int num1= input.nextInt();
 		
-		boolean isEven = (num1)% 2 == 0;
+		boolean isEven = num1 % 2 == 0;
 		System.out.printf("Is num1 an Even number? %b",isEven);
 		
 	}
 }
-		
-		
 		
 		
