@@ -16,7 +16,7 @@ public class Product {
         System.out.print("Enter third integer: ");
         z = input.nextInt();
 
-        result = x * y * z;
+        int result = x * y * z;
 
         System.out.printf("Product is %d%n", result);
     }
