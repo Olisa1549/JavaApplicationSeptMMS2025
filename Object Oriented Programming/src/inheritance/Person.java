@@ -18,7 +18,7 @@ public class Person {
         this.name = name;
         this.age = age;
     }
-    public void displayStudentInfo(){
+    public void displayPersonInfo(){
         System.out.println("Student Name: " + name);
         System.out.println("Student age: " + age);
        

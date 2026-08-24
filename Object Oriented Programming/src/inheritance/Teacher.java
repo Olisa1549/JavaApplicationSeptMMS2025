@@ -1,29 +1,37 @@
-
 package inheritance;
 
+public class Teacher extends Person {
+    private String department;
+    private double salary;
 
-public class Teacher {
-
-    public String getdepartment() {
+    public String getDepartment() {
         return department;
     }
 
-    public void setdepartment(String department) {
+    public void setDepartment(String department) {
         this.department = department;
     }
 
-    public String getsalary() {
+    public double getSalary() {
         return salary;
     }
 
-    public void setsalary(String salary) {
+    public void setSalary(double salary) {
         this.salary = salary;
     }
 
-    public Teacher(String department, String salary) {
+    public Teacher(String department, double salary, String name, int age) {
+        super(name, age);
         this.department = department;
         this.salary = salary;
     }
-    private String department;
-    private String salary;
+    @Override
+    public void displayPersonInfo(){
+    System.out.println("*************************");
+    super.displayPersonInfo();
+    System.out.println("Teachers Department: " +department);
+    System.out.println("Teachers Salary: " +salary);
+    System.out.println("*************************");
+    }
+    
 }
