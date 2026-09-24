@@ -12,6 +12,12 @@ public class BankAccount {
 //        this.balance = balance;
 //    }
 
+    public BankAccount(int accountNumber, String accountHolder, double balance) {
+        this.accountNumber = accountNumber;
+        this.accountHolder = accountHolder;
+        this.balance = balance;
+    }
+
     public int getAccountNumber() {
         return accountNumber;
     }

@@ -22,3 +22,5 @@ public class RPSGame {
         }
     }
 }
+
+We were doing exception in class but we were not able to finish it up because of time so we have only done runtime exception handling in java pls can you teach me
